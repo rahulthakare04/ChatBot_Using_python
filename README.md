@@ -8,6 +8,14 @@ RahulGPT is an interactive chatbot powered by Google Gemini API, built with Djan
 - Supports Markdown-formatted responses
 - Built using Django framework
 
+  ## Video Execution
+  
+  https://github.com/user-attachments/assets/d7057cf9-8474-44a4-b768-0b016d84da91
+
+
+
+
+
 
 ## Installation
 
