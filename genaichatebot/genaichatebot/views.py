@@ -2,20 +2,15 @@ from django.shortcuts import render
 import google.generativeai as genai 
 import markdown
 
-# response_text = markdown.markdown(gemini_response)  # Convert Markdown to HTML
-
 
 
 # config gen API
-genai.configure(api_key="AIzaSyA_C_S5FXV5r9blQACJUeSzrlv_BUm59MQ")
+genai.configure(api_key="Your API key")
 
 # gemini model
 model=genai.GenerativeModel("gemini-1.5-pro")
 
-# response funtion
-# def get_gemini_responce(question):
-#     response=model.generate_content(question)
-#     return response.text
+
 
 def home(request):
     response_text = ""
